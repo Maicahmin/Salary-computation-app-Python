@@ -59,23 +59,23 @@ Tax(12% of the gross salary) and Rate(500/hr) is fixed
 
     def rate(hour):
 
-    return 500 * hour
+        return 500 * hour
     
     --------------------------------------------------------------------------
     #Module 2 SalaryDeduction.py
 
     def tax(gross):
 
-    return gross * 0.12
+        return gross * 0.12
 
     def TotalDeductions(tax2, insurance, loan):
 
-    return tax2 + insurance + loan
+        return tax2 + insurance + loan
     
     --------------------------------------------------------------------------
     #Module 3 NetSalary.py
 
     def net(gross, deductions):
 
-    return gross - deductions
+        return gross - deductions
     
